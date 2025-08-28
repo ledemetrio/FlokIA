@@ -4,5 +4,14 @@
 --cor-secundaria: #32aab9;
 --cor-texto: #ffffff;
 --cor-destaque: #1a6363;
+}
 
+body{
+
+  background-color: var(--cor-fundo);  
+  color:var(--cor-texto);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
